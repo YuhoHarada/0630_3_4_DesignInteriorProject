@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Work+Sans:wght@300;400&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+#hero {
+  background: url(../img/design-interior-1.jpg) right/contain no-repeat;
+  height: calc(100vh - 100px);
+}
+#hero div {
+  background: #fff;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lora", serif;
+}
+#hero div h1 {
+  font-size: 5rem;
+  letter-spacing: 10px;
+  margin-left: 10px;
+}
+#hero div p {
+  letter-spacing: 2px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 100px;
+  background: #2e2e2e;
+  padding: 0 2%;
+}
+header input, header span {
+  display: none;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  letter-spacing: 1px;
+}
+header nav li {
+  margin-right: 10vw;
+}
+header nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s ease;
+}
+header nav a:hover {
+  color: #88cddb;
+}
+
+#story {
+  display: flex;
+  align-items: center;
+  background: #2e2e2e;
+  color: #fff;
+  padding: 150px 0;
+}
+#story img {
+  width: 55%;
+}
+#story article {
+  padding: 2%;
+  width: 41%;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 2em;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+#featured {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 150px 3%;
+}
+#featured p {
+  width: 50%;
+  letter-spacing: 2px;
+  word-spacing: 8px;
+  margin-bottom: 80px;
+}
+#featured article {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+}
+#featured article figure {
+  width: 30%;
+}
+#featured article img {
+  width: 100%;
+}
+#featured article figcaption {
+  font-size: 1.2em;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#contact {
+  background: #2e2e2e;
+  color: #fff;
+  padding: 150px 10% 150px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#contact div {
+  width: 40%;
+}
+#contact h2 {
+  text-align: left;
+  margin-bottom: 40px;
+}
+#contact label {
+  font-family: "Lora", serif;
+  font-size: 1.5em;
+}
+#contact input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+#contact input:last-of-type {
+  font-family: "Work Sans", sans-serif;
+  width: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1d2c2f;
+  color: #fff;
+  font-family: "Lora", serif;
+  padding: 10px 5%;
+}
+footer p {
+  margin-bottom: 0;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+}
+footer li {
+  margin-left: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
