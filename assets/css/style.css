@@ -233,7 +233,7 @@ p {
 #contact {
   background: #2e2e2e;
   color: #fff;
-  padding: 150px 10% 150px 5%;
+  padding: 150px 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -250,6 +250,7 @@ p {
   font-size: 1.5em;
 }
 #contact input {
+  box-sizing: border-box;
   width: 100%;
   padding: 5px;
   margin-bottom: 30px;
